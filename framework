@@ -1,0 +1,12 @@
+lifeos/
+├── public/
+│   ├── index.html          ← replace
+│   ├── manifest.json       ← create new
+│   └── icons/
+│       ├── icon-192.png    ← create (see Step 4)
+│       └── icon-512.png    ← create (see Step 4)
+├── src/
+│   ├── App.js              ← replace with Life OS code
+│   ├── index.js            ← replace
+│   └── serviceWorker.js    ← create new
+└── vercel.json             ← create new
